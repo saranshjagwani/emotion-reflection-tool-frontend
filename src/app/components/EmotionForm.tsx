@@ -38,7 +38,7 @@ const EmotionForm: React.FC = () => {
 
     try {
       // Call the FastAPI backend with user input
-      const res = await axios.post("http://localhost:8000/analyze", { text });
+      const res = await axios.post("https://emotion-reflection-tool-backend-p3gl.onrender.com/analyze", { text });
       setResult(res.data); // Set API response to state
     } catch (err) {
       // Handle error gracefully
