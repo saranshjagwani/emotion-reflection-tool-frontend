@@ -1,17 +1,4 @@
-Great! Here's a professional `README.md` you can add to your frontend repo [`emotion-reflection-tool-frontend`](https://github.com/saranshjagwani/emotion-reflection-tool-frontend). This covers:
 
-* Project overview
-* Tech stack
-* Features
-* Setup & installation
-* Deployment
-* API integration
-
----
-
-### 📄 `README.md` (copy this into your project root)
-
-```markdown
 # Emotion Reflection Tool – Frontend
 
 A mobile-first web application where users can reflect on their emotions by submitting short text inputs. The app analyzes user reflections via a FastAPI backend and returns a mock emotional interpretation along with a confidence score.
